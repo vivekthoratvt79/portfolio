@@ -7,6 +7,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
+  justify-content: space-between;
 }
 
 .home-content {
@@ -32,7 +33,7 @@ section {
 }
 
 .home-content p {
-  font-size: 1.6 rem;
+  font-size: 1.6rem;
   margin: 2rem 0 4rem;
 }
 
@@ -125,4 +126,9 @@ section {
 
 .home-sci a:hover {
   color: var(--bg-color);
+}
+
+.img-container img {
+  opacity: 0.8;
+  border: var(--main-color) 0.5px solid;
 }
